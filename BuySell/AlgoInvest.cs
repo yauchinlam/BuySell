@@ -5,19 +5,12 @@ using System.Threading.Tasks;
 
 namespace BuySell
 {
-    public class ImplmentInvest
+    public class AlgoInvest
     {
-        datastore stockfile = new datastore();
-        //new class called datastore
-        //datastore from another program
-        //has the following fields
-        //  list of prices
-        //  name of stock
-        //  fees 
-        static bool TimeToBuy(datastore _stockfile)
+        public static bool TimeToBuy(datastore _stockfile)
         {
-            List<decimal> price = _stockfile.price;
-            decimal fees = _stockfile.fees;
+            List<decimal> price = _stockfile.Price;
+            decimal fees = _stockfile.Fees;
             // replace p with (p + fees)
             //old code. I added the code above to just add the fees to it
             int len_4 = price.Count() / 4;
@@ -45,10 +38,10 @@ namespace BuySell
             //when they confirm the price they bought it save it
         }
 
-        static bool TimeToSell(datastore _stockfile)
+        public static bool TimeToSell(datastore _stockfile)
         {
-            decimal price = _stockfile.currentprice;
-            List<decimal> range = _stockfile.price;
+            decimal price = _stockfile.Currentprice;
+            List<decimal> range = _stockfile.Price;
             int len = range.Count;
             int len_4 = len / 4;
             int len_50 = len / 2;
@@ -83,7 +76,7 @@ namespace BuySell
             return v;
         }
         //min method with the added feature to check if the min is at the end points
-        static List<decimal> FindTheMin(List<decimal> listofStock)
+        public static List<decimal> FindTheMin(List<decimal> listofStock)
         {
             /*High
              * Low
@@ -121,7 +114,7 @@ namespace BuySell
             */
         }
         //max method with the added feature to check if the max is at the end points
-        static List<decimal> FindTheMax(List<decimal> listofStock)
+        public static List<decimal> FindTheMax(List<decimal> listofStock)
         {
             decimal max = listofStock.Max();
             int m_i = listofStock.ToList().IndexOf(max);
@@ -153,5 +146,6 @@ namespace BuySell
 
         }
 
+        
     }
 }
