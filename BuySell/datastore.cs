@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace BuySell
 {
+    //this is the model that will receive the message reply of the gRPC
     public class datastore
     {
         string _stockname;

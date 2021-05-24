@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace BuySell
 {
+    //this performs the calculations of buy or sell
     public class AlgoInvest
     {
         public static bool TimeToBuy(datastore _stockfile)
