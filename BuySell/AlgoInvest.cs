@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BuySell.Models;
 
 namespace BuySell
 {
     //this performs the calculations of buy or sell
     public class AlgoInvest
     {
-        public static bool TimeToBuy(datastore _stockfile)
+        public static bool TimeToBuy(DataStoreModel _stockfile)
         {
             List<decimal> price = _stockfile.Price;
             decimal fees = _stockfile.Fees;
@@ -39,7 +40,7 @@ namespace BuySell
             //when they confirm the price they bought it save it
         }
 
-        public static bool TimeToSell(datastore _stockfile)
+        public static bool TimeToSell(DataStoreModel _stockfile)
         {
             decimal price = _stockfile.Currentprice;
             List<decimal> range = _stockfile.Price;

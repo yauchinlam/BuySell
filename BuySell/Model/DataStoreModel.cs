@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BuySell
+namespace BuySell.Models
 {
     //this is the model that will receive the message reply of the gRPC
-    public class datastore
+    public class DataStoreModel
     {
         string _stockname;
         List<decimal> _price;

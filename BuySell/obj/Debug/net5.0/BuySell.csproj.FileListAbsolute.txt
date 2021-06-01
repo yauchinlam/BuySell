@@ -38,7 +38,6 @@ C:\Users\Gonzalez\source\repos\BuySell\BuySell\obj\Debug\net5.0\ref\BuySell.dll
 C:\Users\Gonzalez\source\repos\BuySell\BuySell\obj\Debug\net5.0\BuySell.pdb
 C:\Users\Gonzalez\source\repos\BuySell\BuySell\obj\Debug\net5.0\BuySell.genruntimeconfig.cache
 C:\Users\Gonzalez\source\repos\BuySell\BuySell\obj\Debug\net5.0\BuySell.csproj.CopyComplete
-C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.csprojAssemblyReference.cache
 C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.AssemblyInfoInputs.cache
 C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.AssemblyInfo.cs

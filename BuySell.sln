@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuySell", "BuySell\BuySell.csproj", "{9DF08164-EAD3-4A29-8141-7F48E1B1F5BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuySell", "BuySell\BuySell.csproj", "{9DF08164-EAD3-4A29-8141-7F48E1B1F5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuySellSend", "BuySellSend\BuySellSend.csproj", "{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9DF08164-EAD3-4A29-8141-7F48E1B1F5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DF08164-EAD3-4A29-8141-7F48E1B1F5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DF08164-EAD3-4A29-8141-7F48E1B1F5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

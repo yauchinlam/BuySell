@@ -1,0 +1,28 @@
+﻿@page "/"
+@using BuySell.Models
+@using BuySell
+@using BuySellSend.Services
+@inject IQueueService queue
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+@* Create a form that chooses which stock to pick from
+   Then from there call finnhubb using that stock name
+   then implement invest algo
+   finally send the answer as a queue message
+    *@
+@code{
+    private DataStoreModel dataStore = new DataStoreModel();
+
+
+
+    private async Task PublishMesage()
+    {
+        ImplementInvest investor = new ImplementInvest(dataStore);
+        string result = investor.BuySellStorage();
+        //Should be called its actual datastore name
+        await queue.SendMessageAsync(result, "investorStockName");
+        dataStore = new DataStoreModel();
+    }
+}
