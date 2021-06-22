@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServer.Protos";
+
+service Stock {
+
+}
+
+message StockLookupModel {
+	 List<string> c =1;
+     decimal p = 2;
+     string s= 3;
+     long t= 4;
+     decimal v =5;
+
+}

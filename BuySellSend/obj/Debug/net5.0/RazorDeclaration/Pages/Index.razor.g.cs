@@ -112,9 +112,11 @@ using BuySellSend.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 15 "C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySellSend\Pages\Index.razor"
+#line 24 "C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySellSend\Pages\Index.razor"
       
-    private DataStoreModel dataStore = new DataStoreModel();
+    private StockRequestModel stockRequest = new StockRequestModel();
+    stockRequest.StockWebsiteRequest();
+    private DataStoreModel dataStore = stockRequest.outputStock;
 
 
 
@@ -122,8 +124,9 @@ using BuySellSend.Services;
     {
         ImplementInvest investor = new ImplementInvest(dataStore);
         string result = investor.BuySellStorage();
-        //Should be called its actual datastore name
-        await queue.SendMessageAsync(result, "investorStockName");
+        //Call it stock for general stock
+        await queue.SendMessageAsync(result, "Stock");
+        
         dataStore = new DataStoreModel();
     }
 

@@ -12,17 +12,25 @@ Welcome to your new app.
    then implement invest algo
    finally send the answer as a queue message
     *@
+<EditForm Model="@stockRequest" OnInvalidSubmit="@PublishMesage">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="StockChoice"> Stock Choice</label>
+        <InputText id ="StockChoice" class="form-control" @bind-Value="stockRequest.StockChoice" />
+    </div>
+    </EditForm>
 @code{
-    private DataStoreModel dataStore = new DataStoreModel();
-
-
-
+    private StockRequestModel stockRequest = new StockRequestModel();
+    
     private async Task PublishMesage()
     {
+        stockRequest.StockWebsiteRequest();
+        DataStoreModel dataStore = stockRequest.outputStock;
         ImplementInvest investor = new ImplementInvest(dataStore);
         string result = investor.BuySellStorage();
-        //Should be called its actual datastore name
-        await queue.SendMessageAsync(result, "investorStockName");
-        dataStore = new DataStoreModel();
+        //Call it stock for general stock
+        await queue.SendMessageAsync(result, "Stock");
     }
 }

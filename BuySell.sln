@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuySell", "BuySell\BuySell.csproj", "{9DF08164-EAD3-4A29-8141-7F48E1B1F5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuySellSend", "BuySellSend\BuySellSend.csproj", "{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuySellSend", "BuySellSend\BuySellSend.csproj", "{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuySellReceiver", "BuySellReceiver\BuySellReceiver.csproj", "{47F39759-F1E3-4EBC-AD79-B7FAF52102D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{612D323F-2259-4DDB-B132-AE0E08F136B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B81AA96B-775C-43ED-A86A-D6BC1C49CCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F39759-F1E3-4EBC-AD79-B7FAF52102D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F39759-F1E3-4EBC-AD79-B7FAF52102D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F39759-F1E3-4EBC-AD79-B7FAF52102D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F39759-F1E3-4EBC-AD79-B7FAF52102D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612D323F-2259-4DDB-B132-AE0E08F136B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612D323F-2259-4DDB-B132-AE0E08F136B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612D323F-2259-4DDB-B132-AE0E08F136B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612D323F-2259-4DDB-B132-AE0E08F136B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

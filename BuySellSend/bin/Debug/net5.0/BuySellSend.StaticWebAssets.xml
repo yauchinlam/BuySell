@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySellSend\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="_content/BuySell" Path="C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\wwwroot\" />
-</StaticWebAssets>

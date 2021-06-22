@@ -77,3 +77,4 @@ C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.Razo
 C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.Views.pdb
 C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.genruntimeconfig.cache
 C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.csproj.CopyComplete
+C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySell\obj\Debug\net5.0\BuySell.csprojAssemblyReference.cache
