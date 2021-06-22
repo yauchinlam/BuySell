@@ -3,14 +3,17 @@ syntax = "proto3";
 option csharp_namespace = "GrpcServer.Protos";
 
 service Stock {
-
+    rpc GetStockInfo (StockLookupModel) returns (StockModel);
 }
 
 message StockLookupModel {
-	 List<string> c =1;
-     decimal p = 2;
-     string s= 3;
-     long t= 4;
-     decimal v =5;
+	 string s = 1;
+}
 
+message StockModel {
+  	repeated string c = 1;
+     decimal p = 2;
+     string s = 3;
+     long t = 4;
+     decimal v = 5;
 }

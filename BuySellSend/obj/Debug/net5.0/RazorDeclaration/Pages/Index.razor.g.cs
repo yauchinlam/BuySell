@@ -115,19 +115,15 @@ using BuySellSend.Services;
 #line 24 "C:\Users\Gonzalez\Documents\GitHub\BuySell\BuySellSend\Pages\Index.razor"
       
     private StockRequestModel stockRequest = new StockRequestModel();
-    stockRequest.StockWebsiteRequest();
-    private DataStoreModel dataStore = stockRequest.outputStock;
-
-
-
+    
     private async Task PublishMesage()
     {
+        stockRequest.StockWebsiteRequest();
+        DataStoreModel dataStore = stockRequest.outputStock;
         ImplementInvest investor = new ImplementInvest(dataStore);
         string result = investor.BuySellStorage();
         //Call it stock for general stock
         await queue.SendMessageAsync(result, "Stock");
-        
-        dataStore = new DataStoreModel();
     }
 
 #line default
