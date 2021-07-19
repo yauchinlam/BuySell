@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJu0iEPyVTWDpXxWYwbSPu49tk5ouqFZEfcz+JeJSGTiSM9ZJRm2e5AHhXTnkCivs8j1sOo5lLd4G7Cd3tqYdA==",
+  "dgSpecHash": "Z+17y8qZJDITsiflBPQuJl6o90P9Hi7syg9wSvaqiPti7zzPYEs8ZKHPS4OIz55aexAdjqDLrJU2wWv4lXji8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gonzalez\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj",
+  "projectFilePath": "C:\\Users\\Yauch\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gonzalez\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+    "C:\\Users\\Yauch\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
   ],
   "logs": []
 }

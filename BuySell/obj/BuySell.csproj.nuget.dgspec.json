@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gonzalez\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj": {}
+    "C:\\Users\\Yauch\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gonzalez\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj": {
+    "C:\\Users\\Yauch\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gonzalez\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj",
+        "projectUniqueName": "C:\\Users\\Yauch\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj",
         "projectName": "BuySell",
-        "projectPath": "C:\\Users\\Gonzalez\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj",
-        "packagesPath": "C:\\Users\\Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gonzalez\\Documents\\GitHub\\BuySell\\BuySell\\obj\\",
+        "projectPath": "C:\\Users\\Yauch\\Documents\\GitHub\\BuySell\\BuySell\\BuySell.csproj",
+        "packagesPath": "C:\\Users\\Yauch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yauch\\Documents\\GitHub\\BuySell\\BuySell\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Yauch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
